@@ -335,7 +335,6 @@
 <script src="{{ asset('client/assets/js/bundle.js?ver=2.4.0') }}"></script>
 <script src="{{ asset('client/assets/js/scripts.js?ver=2.4.0') }}"></script>
 <script src="{{ asset('client/assets/js/charts/chart-crypto.js?ver=2.4.0') }}"></script>
-<script src="//code.jivosite.com/widget/TzMcqSGn8K" async></script>
 <script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 </body>
