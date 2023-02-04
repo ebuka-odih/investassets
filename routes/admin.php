@@ -9,8 +9,7 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::get('security', "Admin\AdminController@security")->name('security');
     Route::post('security', "Admin\AdminController@storePassword")->name('storePassword');
     Route::post('defund/account/', 'Admin\AdminController@defund')->name('defund');
-
-
+    
     Route::get('user/details/{id}', "Admin\UserController@userDetails")->name('userDetails');
     Route::get('users', 'Admin\UserController@users')->name('users');
     Route::delete('delete/user', 'Admin\UserController@deleteUser')->name('deleteUser');
@@ -26,7 +25,7 @@ Route::group(['middleware' => ['auth', 'verified', 'admin'], 'prefix' => 'admin'
     Route::get('approve/deposit/{id}', "Admin\AdminDeposit@approve_deposit")->name('approve_deposit');
     Route::delete('delete/deposit/{id}', "Admin\AdminDeposit@deleteDeposit")->name('deleteDeposit');
 
-    
+
 
     // Withdrawal Route
     Route::get('withdrawals', "Admin\AdminWithdraw@withdrawal")->name('withdrawal');

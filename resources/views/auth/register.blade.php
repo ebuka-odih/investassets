@@ -10,7 +10,7 @@
     <!-- Fav Icon  -->
     <link rel="shortcut icon" href="./images/favicon.png">
     <!-- Page Title  -->
-    <title>Affluent CoinFX| Register</title>
+    <title>Invest-Assets| Register</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="{{ asset('client/assets/css/dashlite.css?ver=2.4.0') }}">
     <link id="skin-default" rel="stylesheet" href="{{ asset('client/assets/css/theme.css?ver=2.4.0') }}">
@@ -27,7 +27,7 @@
                 <div class="nk-block nk-block-middle nk-auth-body  wide-xs">
                     <div class="brand-logo pb-4 text-center">
                         <a href="/" class="logo-link">
-                            <h3 class="text-white">Affluent CoinFX</h3>
+                            <h3 class="text-white">Invest-Assets</h3>
                             {{--                            <img class="logo-light logo-img logo-img-lg" src="./images/logo.png" srcset="./images/logo2x.png 2x" alt="logo">--}}
                             {{--                            <img class="logo-dark logo-img logo-img-lg" src="./images/logo-dark.png" srcset="./images/logo-dark2x.png 2x" alt="logo-dark">--}}
                             {{--                       --}}
@@ -39,7 +39,7 @@
                                 <div class="nk-block-head-content">
                                     <h4 class="nk-block-title">Register</h4>
                                     <div class="nk-block-des">
-                                        <p>Create New Affluent CoinFX Account
+                                        <p>Create New Invest-Assets Account
                                         </p>
                                     </div>
                                 </div>
@@ -117,22 +117,10 @@
                 <div class="nk-footer nk-auth-footer-full">
                     <div class="container wide-lg">
                         <div class="row g-3">
-                            <div class="col-lg-6 order-lg-last">
-                                <ul class="nav nav-sm justify-content-center justify-content-lg-end">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Terms & Condition</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Privacy Policy</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Help</a>
-                                    </li>
-                                </ul>
-                            </div>
+
                             <div class="col-lg-6">
                                 <div class="nk-block-content text-center text-lg-left">
-                                    <p class="text-soft">&copy; 2022 Affluent CoinFX. All Rights Reserved.</p>
+                                    <p class="text-soft">&copy; 2023 Invest-Assets. All Rights Reserved.</p>
                                 </div>
                             </div>
                         </div>
